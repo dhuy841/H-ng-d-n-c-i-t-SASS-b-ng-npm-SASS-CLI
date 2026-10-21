@@ -1,0 +1,18 @@
+@use "button-variables" as *;
+
+.button {
+  display: inline-block;
+  padding: $button-padding;
+  border: 0;
+  border-radius: $button-radius;
+  color: #fff;
+  background: #6b4eff;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #5035df;
+  }
+}

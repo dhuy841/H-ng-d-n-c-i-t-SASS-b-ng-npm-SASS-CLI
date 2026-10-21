@@ -1,0 +1,31 @@
+@use "variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 1.5rem;
+  color: $color-text;
+  background: $color-background;
+  font-family: system-ui, sans-serif;
+}
+
+.card {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 1rem 3rem rgb(37 35 58 / 10%);
+
+  h1 {
+    margin-top: 0;
+    color: $color-primary;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
